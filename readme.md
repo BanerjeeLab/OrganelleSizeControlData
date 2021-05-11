@@ -47,6 +47,30 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
+## Fig 3_C_inset
+- The files l_*.txt contain centrosome size evolution from Gillespie simulation. The number in filename denotes volume of the system/cell
+- Data in the files written as: \
+    time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit pool size
+- Experimental data is stored in the file "V_cell_centro.txt". The file contains: \
+  Cell/system size | average centrosome size | standard error in size
+- analysis.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+## Fig 3_D
+- The file l.txt contains centrosome size evolution from Gillespie simulation where they grow from two components/subunits 
+- Data in the file is written as: \
+    time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit 1 pool size | subunit 2 pool size
+    
+## Fig 4_B
+- The file l.txt contains microtubule(MT) filament size evolution from Gillespie simulation
+- Data in the file is written as: \
+    time | size of MT 1 | size of MT 2 | ... | size of MT n 
+- The file nr.txt contains nucleus size (in radius) evolution from the same Gillespie simulation
+- Data in the file is written as: \
+    time | size of nucleus 1 | size of nucleus 2 | ... | size of nucleus n
+- analysis.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
 
 
 
