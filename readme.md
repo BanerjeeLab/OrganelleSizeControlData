@@ -18,3 +18,36 @@ This repository stores the data used in the paper [Size regulation of multiple o
     time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
 - fig1EF.nb contains MATHEMATICA codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+## Fig 2_B
+- In the filemanes L_nf_*.txt, the number denotes number of flagella in the cell
+- L_nf_*.txt files contain flagella size evolution from Gillespie simulation written as: \
+    time | size of flagellum 1 | size of flagellum 2 | ... | size of flagellum n | subunit pool size
+    
+## Fig 2_C
+- In the filemanes L_intact and L_cut denotes the flagellum that was intact and cut in a "long-zero" experiment respectively.
+- L.txt file contains flagella size evolution from Gillespie simulation written as: \
+    time | size of flagellum 1 | size of flagellum 2 | ... | size of flagellum n | subunit pool size \
+- L_intact.txt and L_cut.txt files contain flagella size evolution from long-zero experiment written as: \
+    time | size of flagellum \
+- analysis.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+## Fig 3_B
+- The files llps.txt and localized_assembly.txt contain centrosome size evolution from Gillespie simulation where they grow accordingly 
+- Data in the files written as: \
+    time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit pool size
+
+## Fig 3_C
+- The files l_*.txt contain centrosome size evolution from Gillespie simulation. The number in filename denotes number of centrosomes growing in the system/cell
+- Data in the files written as: \
+    time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit pool size
+- Experimental data is stored in directories "exp1" and "exp2". The filenames contain number of centrosome growing in the system/cell
+- The files contain single column data of mean size of centrosomes for many such experiments.
+- analysis.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+
+
+
+
