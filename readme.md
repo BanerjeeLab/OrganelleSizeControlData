@@ -1,5 +1,5 @@
 # Repository Information
-This repository stores the data used in the paper [Size regulation of multiple organelles competing for a shared subunit pool](https://doi.org/10.1101/2020.01.11.902783).
+This repository stores the data used in the manuscript [Size regulation of multiple organelles competing for a shared subunit pool](https://doi.org/10.1101/2020.01.11.902783).
 
 # Description of the data files
 
