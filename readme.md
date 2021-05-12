@@ -1,7 +1,7 @@
 # Repository Information:
 This repository stores the data used in the manuscript [Size regulation of multiple organelles competing for a shared subunit pool](https://doi.org/10.1101/2020.01.11.902783).
 
-# Description of the data files for main text:
+# Description of the data files for main figures:
 
 ## Fig 1BCDEFG/fig1BCD
 - directory name "ab0" denotes parameter value α + β=0, "ab1" denotes parameter value α + β=1, "abm1" denotes parameter value α + β=-1
@@ -139,7 +139,7 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - Phase identity number takes values 1 (not growing), 2 (fat tailed distribution) or 3 (bimodal distribution)
     
 
-# Description of the data files for supplementary:
+# Description of the data files for supplementary figures:
 
 ## Appendix 3 Fig 1
 -  The directory contains two sub-directories "D_0.01" and "D_1" corresponding to data for diffusion constant value 0.01 and 1.
