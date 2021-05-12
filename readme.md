@@ -153,6 +153,17 @@ This repository stores the data used in the manuscript [Size regulation of multi
    Size | Probability for that size
 -  The directories "ab-1" contain data for panels E, F and G. The files l.txt and n_P_N.txt have data in similar format as described above.
 
+## Appendix 6 Fig 1
+- The directory contains sub-directories "theory" and "exp" for theory results from Gillespie simulation and experimental data.
+- The theory directory contains data file with flagella size evolution written as: \
+    time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
+- The exp directory contains data files (for each flagella) with flagella size evolution from long-zero experiment, written as: \
+    time | size of flagella
 
+## Appendix 10 Fig 1
+- The directory contains sub-directories named according to the figure panels and store theory results from Gillespie simulation.
+- Each directory (except H) contains data file l.txt with structure size evolution written as: \
+    time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
+- directory "H" has three files "l10.txt", "l20.txt" and "l40.txt" containing data in same format as l.txt.
 
 
