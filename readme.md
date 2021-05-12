@@ -3,7 +3,7 @@ This repository stores the data used in the manuscript [Size regulation of multi
 
 # Description of the data files for main text:
 
-## Fig 1_BCDEFG/fig1BCD
+## Fig 1BCDEFG/fig1BCD
 - directory name "ab0" denotes parameter value α + β=0, "ab1" denotes parameter value α + β=1, "abm1" denotes parameter value α + β=-1
 - l.txt files contain structure size evolution from Gillespie simulation written as: \
     time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
@@ -12,19 +12,19 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 1_BCDEFG/fig1EFG
+## Fig 1BCDEFG/fig1EFG
 - file name "ab0.txt" denotes parameter value α + β=0, "ab1.txt" denotes parameter value α + β=1, "abc1_1.txt" and "abc1_2.txt" denote parameter value α + β=1 for two competeing structures 1 and 2 respectively.
 - above described files contain structure size evolution from Gillespie simulation written as: \
     time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
 - fig1EF.nb contains MATHEMATICA codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 2_B
+## Fig 2B
 - In the filemanes L_nf_*.txt, the number denotes number of flagella in the cell
 - L_nf_*.txt files contain flagella size evolution from Gillespie simulation written as: \
     time | size of flagellum 1 | size of flagellum 2 | ... | size of flagellum n | subunit pool size
     
-## Fig 2_C
+## Fig 2C
 - In the filemanes L_intact and L_cut denotes the flagellum that was intact and cut in a "long-zero" experiment respectively.
 - L.txt file contains flagella size evolution from Gillespie simulation written as: \
     time | size of flagellum 1 | size of flagellum 2 | ... | size of flagellum n | subunit pool size \
@@ -33,12 +33,12 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 3_B
+## Fig 3B
 - The files llps.txt and localized_assembly.txt contain centrosome size evolution from Gillespie simulation where they grow accordingly 
 - Data in the files written as: \
     time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit pool size
 
-## Fig 3_C
+## Fig 3C
 - The files l_*.txt contain centrosome size evolution from Gillespie simulation. The number in filename denotes number of centrosomes growing in the system/cell
 - Data in the files written as: \
     time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit pool size
@@ -47,7 +47,7 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 3_C_inset
+## Fig 3C_inset
 - The files l_*.txt contain centrosome size evolution from Gillespie simulation. The number in filename denotes volume of the system/cell
 - Data in the files written as: \
     time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit pool size
@@ -56,12 +56,12 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 3_D
+## Fig 3D
 - The file l.txt contains centrosome size evolution from Gillespie simulation where they grow from two components/subunits 
 - Data in the file is written as: \
     time | size of centrosome 1 | size of centrosome 2 | ... | size of centrosome n | subunit 1 pool size | subunit 2 pool size
     
-## Fig 4_B
+## Fig 4B
 - The file l.txt contains microtubule(MT) filament size evolution from Gillespie simulation
 - Data in the file is written as: \
     time | size of MT 1 | size of MT 2 | ... | size of MT n 
@@ -71,7 +71,7 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 4_B_inset
+## Fig 4B_inset
 - The directory number/name indicates the number of nuclei present in the system. Each directory contins a corresponding nr.txt file. 
 - The file nr.txt contains nucleus size (in radius) evolution from the Gillespie simulation
 - Data in the file is written as: \
@@ -85,7 +85,7 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 4_C
+## Fig 4C
 - The directory named "data" contains files for nucleus size evolution obtained from Gillespie simulation. The files are named nr_*.txt with number denoting the system size (as radius of cylindrical system).
 - Each file nr_*.txt contains nucleus size (in radius) evolution from the Gillespie simulation
 - Data in the file is written as: \
@@ -95,7 +95,7 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis_all.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 4_D
+## Fig 4D
 - The directory named "NEVD" and "NVVD" contain files for nucleus size evolution obtained from Gillespie simulation with growth from surface assembly and volume assembly respectively. Each directory contains nr_*.txt files. The number in the filename denoting the system size (as radius of spherical system).
 - Each file nr_*.txt contains nucleus size (in radius) evolution obtained from the Gillespie simulation
 - Data in the file is written as: \
@@ -105,7 +105,7 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis_all.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 5_ABC
+## Fig 5ABC
 - The directory contains files "a.txt", "b.txt" and "c.txt" for the panels A, B and C.
 - Each file contains structure size evolution from Gillespie simulation written as: \
     time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
@@ -113,26 +113,26 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 5_EF
+## Fig 5EF
 - The directory contains files "b.txt" and "c.txt" for the panels E and F.
 - Each file contains structure size evolution from Gillespie simulation written as: \
     time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
-## Fig 5_G
+## Fig 5G
 - The directory contains file "N_tauR.txt"
 - The file contains residence time (calculated from structure size evolution obtained from Gillespie simulation) data written as: \
    Total subunit pool size (N) | Residence time \
    
 
-## Fig 5_H
+## Fig 5H
 - The directory contains file "l.txt".
 - The file contains structure size evolution from Gillespie simulation written as: \
     time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
 
 
-## Fig 5_I
+## Fig 5I
 - The directory contains file "s_k_pd.txt".
 - The file contains phase diagram data (based on structure size evolution from Gillespie simulation) written as: \
   parameter value α + β | parameter value κ | number (phase identity)
@@ -142,7 +142,16 @@ This repository stores the data used in the manuscript [Size regulation of multi
 # Description of the data files for supplementary:
  (work in progress ...)
 
-
+## Appendix 3 Fig 1
+-  The directory contains two sub-directories "D_0.01" and "D_1" corresponding to data for diffusion constant value 0.01 and 1.
+-  Each directory D_* contain three sub-directories "ab0", "ab1" and "ab-1"
+-  The number in the name denote parameter value, i.e., the name "ab0" denotes parameter value α + β=0.
+-  The directories "ab0" and "ab1" contain data for panels A, B, C and D. The numbering of sub-directories inside "ab0" and "ab1" are according to the increasing run time (as shown in figure).
+-  The file l.txt saves structure size data from Gillespie simulation, written as: \
+   time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
+-  The files n_P1_N_50.txt and n_P2_N_50.txt store resulting size distribution (of structure 1 and 2 respectively) from Gillespie simulation, written as: \
+   Size | Probability for that size
+-  The directories "ab-1" contain data for panels E, F and G. The files l.txt and n_P_N.txt have data in similar format as described above.
 
 
 
