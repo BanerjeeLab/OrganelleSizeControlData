@@ -1,7 +1,7 @@
-# Repository Information
+# Repository Information:
 This repository stores the data used in the manuscript [Size regulation of multiple organelles competing for a shared subunit pool](https://doi.org/10.1101/2020.01.11.902783).
 
-# Description of the data files
+# Description of the data files for main text:
 
 ## Fig 1_BCDEFG/fig1BCD
 - directory name "ab0" denotes parameter value α + β=0, "ab1" denotes parameter value α + β=1, "abm1" denotes parameter value α + β=-1
@@ -105,6 +105,41 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis_all.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
+## Fig 5_ABC
+- The directory contains files "a.txt", "b.txt" and "c.txt" for the panels A, B and C.
+- Each file contains structure size evolution from Gillespie simulation written as: \
+    time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
+- Here a single structure was grown. Hence the other structure (third column) is at zero size.
+- analysis.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+## Fig 5_EF
+- The directory contains files "b.txt" and "c.txt" for the panels E and F.
+- Each file contains structure size evolution from Gillespie simulation written as: \
+    time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
+- analysis.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+## Fig 5_G
+- The directory contains file "N_tauR.txt"
+- The file contains residence time (calculated from structure size evolution obtained from Gillespie simulation) data written as: \
+   Total subunit pool size (N) | Residence time \
+   
+
+## Fig 5_H
+- The directory contains file "l.txt".
+- The file contains structure size evolution from Gillespie simulation written as: \
+    time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
+
+
+## Fig 5_I
+- The directory contains file "s_k_pd.txt".
+- The file contains phase diagram data (based on structure size evolution from Gillespie simulation) written as: \
+  parameter value α + β | parameter value κ | number (phase identity)
+- Phase identity number takes values 1 (not growing), 2 (fat tailed distribution) or 3 (bimodal distribution)
+    
+
+# Description of the data files for supplementary:
 
 
 
