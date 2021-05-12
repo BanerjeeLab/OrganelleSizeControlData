@@ -95,6 +95,19 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis_all.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
+## Fig 4_D
+- The directory named "NEVD" and "NVVD" contain files for nucleus size evolution obtained from Gillespie simulation with growth from surface assembly and volume assembly respectively. Each directory contains nr_*.txt files. The number in the filename denoting the system size (as radius of spherical system).
+- Each file nr_*.txt contains nucleus size (in radius) evolution obtained from the Gillespie simulation
+- Data in the file is written as: \
+    time | size of nucleus 1 | size of nucleus 2 | ... | size of nucleus n
+- vcvn.txt file contains experimental data. The data is written as: \
+  Sytem/Cell volume | Nucleus size (volume)
+- analysis_all.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+
+
+
 
 
 
