@@ -71,6 +71,30 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - analysis.m contains MATLAB codes for data analysis. \
 **( analysis codes are of basic nature and do not produce figures as presented in the study)**
 
+## Fig 4_B_inset
+- The directory number/name indicates the number of nuclei present in the system. Each directory contins a corresponding nr.txt file. 
+- The file nr.txt contains nucleus size (in radius) evolution from the Gillespie simulation
+- Data in the file is written as: \
+    time | size of nucleus 1 | size of nucleus 2 | ... | size of nucleus n
+- the directory "exp" contain experimental data.
+- The files are numbered as nucleus number in system (i.e., 50.txt for 50 nuclei in the system). Each file contains average (over the nuclei) nucleus size in steady state. The data in the file: \
+  time | nucleus diameter
+- np_Rn.txt contains the steady state average (time) size of nucleii calculated using the above described files.
+- The data is written as: \
+  nuclei number | average nucleus size | standard error
+- analysis.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
+## Fig 4_C
+- The directory named "data" contains files for nucleus size evolution obtained from Gillespie simulation. The files are named nr_*.txt with number denoting the system size (as radius of cylindrical system).
+- Each file nr_*.txt contains nucleus size (in radius) evolution from the Gillespie simulation
+- Data in the file is written as: \
+    time | size of nucleus 1 | size of nucleus 2 | ... | size of nucleus n
+- logR_logRn.txt file contains experimental data. The data is written as: \
+  Log(system size) | Log(Renormalized nucleus size)
+- analysis_all.m contains MATLAB codes for data analysis. \
+**( analysis codes are of basic nature and do not produce figures as presented in the study)**
+
 
 
 
