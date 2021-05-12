@@ -140,7 +140,6 @@ This repository stores the data used in the manuscript [Size regulation of multi
     
 
 # Description of the data files for supplementary:
- (work in progress ...)
 
 ## Appendix 3 Fig 1
 -  The directory contains two sub-directories "D_0.01" and "D_1" corresponding to data for diffusion constant value 0.01 and 1.
@@ -165,5 +164,12 @@ This repository stores the data used in the manuscript [Size regulation of multi
 - Each directory (except H) contains data file l.txt with structure size evolution written as: \
     time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
 - directory "H" has three files "l10.txt", "l20.txt" and "l40.txt" containing data in same format as l.txt.
+
+## Appendix 12 Fig 1
+- The directory contains sub-directories named according to parameter values "alpha_plus_beta_0" and "alpha_plus_beta_1".
+- "alpha_plus_beta_0" contains data for panels A, B and B-inset
+- "alpha_plus_beta_1" contains data for panels C and D
+- Each panel directory contains data file l.txt with structure size evolution obtained from Gillespie simulation, written as: \
+    time | size of structure 1 | size of structure 2 | ... | size of structure n | subunit pool size
 
 
